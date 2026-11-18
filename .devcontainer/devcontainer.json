@@ -26,5 +26,5 @@
         ]
       }
     },
-    "postCreateCommand": "echo 'Welcome to your Ubuntu Codespace with UFW running as root with NET_ADMIN capability!'"
+    "postCreateCommand": "chmod +x run.sh && .run.sh && echo 'Welcome to your Ubuntu Codespace with UFW running as root with NET_ADMIN capability!'"
 }
