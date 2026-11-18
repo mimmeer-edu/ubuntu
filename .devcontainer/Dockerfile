@@ -11,7 +11,6 @@ RUN apt-get update && apt-get install -y \
     wget \
     git \
     vim \
-    && rm -rf /var/lib/apt/lists/*
 
 # (Optional) Set a working directory
 WORKDIR /workspace
