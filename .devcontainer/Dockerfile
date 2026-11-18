@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     wget \
     git \
-    vim \
+    vim
 
 # (Optional) Set a working directory
 WORKDIR /workspace
