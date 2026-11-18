@@ -9,9 +9,3 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.41.0/install.sh | bash
 nvm install 26
 echo Set up success!
 node -v
-
-echo Setting up Python...
-
-sudo apt-get install python3
-echo Set up success!
-python3 -v
